@@ -26,6 +26,8 @@ try {
   // Init the watcher
   const adtConverter = new ADTConverter(converterConfig);
 
+  await adtConverter.createDefaultDirs();
+
   // Goooo
   adtConverter.startWatching();
 

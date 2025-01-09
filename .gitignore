@@ -134,7 +134,7 @@ dist
 /resources/Heightmap/listfile.csv
 
 # Ignore ADT's and other stuff in conversion folder
-/resources/Extractor/export
-/resources/Extractor/Input
-/resources/Heightmap/Input
-/resources/Heightmap/Output
+/resources/Extractor/export/**
+/resources/Extractor/Input/**
+/resources/Heightmap/Input/**
+/resources/Heightmap/Output/**

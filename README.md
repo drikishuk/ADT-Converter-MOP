@@ -7,6 +7,7 @@ ADT Auto Conversion for Cata / MOP with Noggit - supports instant map editing, g
 Windows
 NodeJS - Any version after 14.00 - probably... Just download the latest LTS here:
 https://nodejs.org/en/download
+Noggit Red - Latest (Make sure modern features are enabled so you can see height texturing working properly)
 
 # Step 1 - Extract 
 Go to /resources/Heightmap and extract the listfile.rar file. You should have the listfile.csv file in this same directory. 
@@ -42,7 +43,9 @@ You may need to copy your WOTLK (Noggit) WDT file into your client map directory
 
 
 # Credits
-ADTConverter - @Luzifix (https://github.com/Luzifix/)
-Heightmap - @Varen (https://github.com/Varen/)
-Ground Effects implementation -> Huge thanks to @Marlamin for his help guiding me how to handle this.
-The rest... Drikish :D
+ADTConverter - @Luzifix (https://github.com/Luzifix/)  
+Heightmap - @Varen (https://github.com/Varen/)  
+Ground Effects implementation -> Huge thanks to @Marlamin for his help guiding me how to handle this.  
+
+@Axel - For testing the hell out of all my stuff as I slowly built it and the rest of the Nightfall project.
+The rest... Drikish :D  
