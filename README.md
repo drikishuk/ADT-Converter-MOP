@@ -2,6 +2,7 @@
 
 # ADT-Watcher-MOP
 ADT Auto Conversion for Cata / MOP with Noggit - supports instant map editing, ground effects, height based textures and MFBO control.
+Save your changes in noggit and relog / teleport away from your map and back to see the updates.
 
 # Requirements
 Windows
@@ -40,6 +41,10 @@ Then simply click the "start.bat" file or for a manual launch in your terminal (
 There may be numerous issues or bugs with this code, its an old version of our tool before we moved off to MOP. 
 You may need to copy your WOTLK (Noggit) WDT file into your client map directory. You should also enable the Heightmapping Flag in either Zone Masher or manually in 010.
     Manual Flag enabling:  adt_has_height_texturing = 0x0080 - Enable this flag in the MPHD Chunk. (https://wowdev.wiki/WDT)
+
+# Convert an entire map
+This version of the tool currently doesnt support a quick way to convert everything, so simply touch all of your ADT's in noggit and save with the converter open.
+If your map is large or PC is slow you might need to change the sleep time in ADTConverter.JS so that the watcher can pick up on all of the files noggit has saved.
 
 
 # Credits
