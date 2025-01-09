@@ -5,24 +5,24 @@ ADT Auto Conversion for Cata / MOP with Noggit - supports instant map editing, g
 Save your changes in noggit and relog / teleport away from your map and back to see the updates.
 
 # Requirements
-Windows
-NodeJS - Any version after 14.00 - probably... Just download the latest LTS here:
-https://nodejs.org/en/download
-Noggit Red - Latest (Make sure modern features are enabled so you can see height texturing working properly)
+Windows  
+NodeJS - Any version after 14.00 - probably... Just download the latest LTS here:  
+https://nodejs.org/en/download  
+Noggit Red - Latest (Make sure modern features are enabled so you can see height texturing working properly)  
 
 # Step 1 - Extract 
 Go to /resources/Heightmap and extract the listfile.rar file. You should have the listfile.csv file in this same directory. 
 
 # Step 2 - Setup 
-In the root of the project open the config.js file and edit the following fields ensuring a '/' on the end of your path.
-  WoWClientWorldFolder: This is where the final coverted files are moved to. If your using my exe for directory loading it might be "E:/wow-548/world/maps/your-awesome-project/"
-  NoggitWorldFolder: This is the noggit world folder path for the map your are trying to convert, for example: "E:/noggit/projects/xxxx/world/maps/xxxx/"
+In the root of the project open the config.js file and edit the following fields ensuring a '/' on the end of your path.  
+  WoWClientWorldFolder: This is where the final coverted files are moved to. If your using my exe for directory loading it might be "E:/wow-548/world/maps/your-awesome-project/"  
+  NoggitWorldFolder: This is the noggit world folder path for the map your are trying to convert, for example: "E:/noggit/projects/xxxx/world/maps/xxxx/"  
 
 # Step 3 - Overrides
 ## For Editing Ground Effects:
-In the main.js file there is a function I have exposed for overriding ground effects. Simply add a line next to the existing one or below the comment like so:
-overrideGroundEffect('tileset/expansion07/riverzone/8riv_grass04_1024.blp', 118745);
-This represents the path to the texture you want to override and the relevant DBC ID for the ground effects you want to use.
+In the main.js file there is a function I have exposed for overriding ground effects. Simply add a line next to the existing one or below the comment like so:  
+overrideGroundEffect('tileset/expansion07/riverzone/8riv_grass04_1024.blp', 118745);  
+This represents the path to the texture you want to override and the relevant DBC ID for the ground effects you want to use.  
 If you want to do this directly in the JSON File called "ge_data.js" you can located in the root folder.
 
 ## For editing heightmap settings
